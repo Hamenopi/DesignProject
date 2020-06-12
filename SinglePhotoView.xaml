@@ -19,17 +19,16 @@
         <Image Margin="10,165,83.333,665.667" Source="photo.jpg" Stretch="Fill" Width="400" Height="240"/>
         <Label Content="Description" HorizontalAlignment="Left" Margin="10,410,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.518,0.164" FontSize="20"/>
         <Label Content="Photo Description..." HorizontalAlignment="Left" Margin="10,447,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.518,0.164" FontSize="20" Width="300" Height="150" BorderBrush="#FF96AFCF" BorderThickness="2"/>
-        
+
         <Label Content="Comments:" HorizontalAlignment="Left" Margin="10,597,0,0" VerticalAlignment="Top" RenderTransformOrigin="-6.518,0.164" FontSize="20"/>
         <Canvas HorizontalAlignment="Left" Height="130" Margin="10,634,0,0" VerticalAlignment="Top" Width="300" RenderTransformOrigin="-2.168,-0.027" Background="#FF96AFCF">
             <Label Content="From:" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="10"/>
             <Label Content="Body" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="72"/>
             <Label Content="Subject:" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="41"/>
         </Canvas>
-        <Canvas HorizontalAlignment="Left" Height="130" Margin="10,769,0,0" VerticalAlignment="Top" Width="300" RenderTransformOrigin="-2.168,-0.027" Background="Blue">
-            <Label Content="From:" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="10"/>
-            <Label Content="Body" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="72"/>
-            <Label Content="Subject:" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="41"/>
+        <Canvas HorizontalAlignment="Left" Height="130" Margin="10,769,0,0" VerticalAlignment="Top" Width="300" RenderTransformOrigin="-2.168,-0.027" Background="#FF96AFCF">
+            <Label Content="Add a Comment:" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="12" Foreground="Blue"/>
+            
         </Canvas>
 
 
